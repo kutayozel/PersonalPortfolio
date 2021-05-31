@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PersonalPortfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    
+    <div class="toggle" onclick="toggleMenu();"></div>
+
+    <section class="banner" id="home">
+        <div class="imgSidebar">
+            <img src="imgs/pngtree.jpg">
+        </div>
+        <div class="contentBx">
+            <h5 class="logoText">My_Portfolio</h5>
+            <div>
+                <h4><span>Hello</span>, I'm</h4>
+                <h2>Kutay Ozel</h2>
+                <h4>I'm a Computer Engineer.</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci aut quae, ipsa molestiae veniam ab inventore! Accusantium laborum alias rerum corporis consequatur neque quidem asperiores amet similique odit. Officia, impedit.
+                  ,praesentium, mollitia facere illo esse. Fugiat placeat blanditiis commodi sit.</p>
+                <a href="#" class="btn">About Me</a>
+            </div>
+            <ul class="sci">
+                <li><a href="#"><img src="imgs/facebook.png"></a></li>
+                <li><a href="#"><img src="imgs/twitter.png"></a></li>
+                <li><a href="#"><img src="imgs/instagram.png"></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="title white">
+            <h2>About Me</h2>
+            <p>Lorem ipsu t cxfgdui voluptas.</p>
+        </div>
+        <div class="content">
+            <div class="textBx">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Incidunt, voluptatum! Libero nam doloremque earum? 
+                    Ab impedit fugit quod excepturi quis, minus facere error earum, 
+                    laborum id repellat quas maxime exercitationem!
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Incidunt, voluptatum! Libero nam doloremque earum? 
+                    Ab impedit fugit quod excepturi quis, minus facere error earum, 
+                    laborum id repellat quas maxime exercitationem</p>
+            </div>
+            <!--
+            <div class="imgBx">
+                <img src="imgs/">
+            </div>
+            -->
+        </div>
+    </section>
+
+    <section class="work" id="work">
+        <div class="title">
+            <h2>Projects</h2>
+            <p>Lorem ipsu t cxfgdui voluptas.</p>
+        </div>
+        <div class="content">
+            <div class="workBx">
+                <div class="imgBx">
+                    <img src="imgs/img1.png">
+                </div>
+                <div class="textBx">
+                    <h3>Project 01</h3>
+                </div>
+            </div>
+            <div class="workBx">
+                <div class="imgBx">
+                    <img src="imgs/img2.png">
+                </div>
+                <div class="textBx">
+                    <h3>Project 02</h3>
+                </div>
+            </div>
+            <div class="workBx">
+                <div class="imgBx">
+                    <img src="imgs/img3.png">
+                </div>
+                <div class="textBx">
+                    <h3>Project 03</h3>
+                </div>
+            </div>
+            <div class="workBx">
+                <div class="imgBx">
+                    <img src="imgs/img4.png">
+                </div>
+                <div class="textBx">
+                    <h3>Project 04</h3>
+                </div>
+            </div>
+            <div class="workBx">
+                <div class="imgBx">
+                    <img src="imgs/img5.png">
+                </div>
+                <div class="textBx">
+                    <h3>Project 05</h3>
+                </div>
+            </div>
+            <div class="workBx">
+                <div class="imgBx">
+                    <img src="imgs/img6.png">
+                </div>
+                <div class="textBx">
+                    <h3>Project 06</h3>
+                </div>
+            </div>
+            <div class="workBx">
+                <div class="imgBx">
+                    <img src="imgs/img7.png">
+                </div>
+                <div class="textBx">
+                    <h3>Project 07</h3>
+                </div>
+            </div>
+            <div class="workBx">
+                <div class="imgBx">
+                    <img src="imgs/img8.png">
+                </div>
+                <div class="textBx">
+                    <h3>Project 08</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="title">
+            <h2>Contact</h2>
+            <p>Lorem ipsu t cxfgdui voluptas.</p>
+        </div>
+        <div class="contactForm">
+            <div class="row">
+                <div class="col50">
+                    <input type="text" name="" placeholder="First Name">
+                </div>
+                <div class="col50">
+                    <input type="text" name="" placeholder="Last Name">
+                </div>
+            </div>    
+            <div class="row">
+                <div class="col50">
+                    <input type="text" name="" placeholder="Email">
+                </div>
+                <div class="col50">
+                    <input type="text" name="" placeholder="Mobile">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col100">
+                    <textarea placeholder="Message"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col100">
+                    <input type="submit" value="Send">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="copyright">
+        <p>@Copyright.</p>
+    </div>
+        
+    
+
+    <div class="sidebar">
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#work" onclick="toggleMenu();">Work</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </div>
+
+    <script src="portfolio.js"></script>
+
+</body>
+</html>
